@@ -1,6 +1,6 @@
 {
   "name": "crypto-random",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A cryptographically strong random number generator. Designed to be a drop-in replacement for Math.random. Can be used with Node or in a browser.",
   "main": "random.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
   },
-    "bugs": {
+  "bugs": {
     "url": "https://github.com/SkepticalHippo/crypto-random/issues"
   },
   "homepage": "https://github.com/SkepticalHippo/crypto-random/#readme",
