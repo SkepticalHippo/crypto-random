@@ -1,0 +1,16 @@
+{
+  "name": "crypto-random",
+  "version": "1.0.0",
+  "description": "A cryptographically strong random number generator. Designed to be a drop-in replacement for Math.random. Can be used with Node or in a browser.",
+  "main": "random.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "SkepticalHippo <edvinasp@live.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mocha-phantomjs": "^4.1.0"
+  }
+}
