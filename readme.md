@@ -1,5 +1,7 @@
 # Crypto-Random
 
+![](https://travis-ci.org/SkepticalHippo/crypto-random.svg?branch=master)
+
 A cryptographically strong random number generator. Designed to be a drop-in replacement for `Math.random`. Can be used with Node or in a browser.
 
 ## Requirements
