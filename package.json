@@ -10,7 +10,25 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0",
-    "mocha-phantomjs": "^4.1.0"
-  }
+    "mocha": "^3.2.0"
+  },
+    "bugs": {
+    "url": "https://github.com/SkepticalHippo/crypto-random/issues"
+  },
+  "homepage": "https://github.com/SkepticalHippo/crypto-random/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkepticalHippo/crypto-random.git"
+  },
+  "keywords": [
+    "random",
+    "crypto-random",
+    "crypto",
+    "cryptography",
+    "math-random",
+    "math random",
+    "math",
+    "browser",
+    "node"
+  ]
 }
