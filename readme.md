@@ -16,8 +16,8 @@ A cryptographically strong random number generator. Designed to be a drop-in rep
 ```js
 const Random = require('crypto-random');
 
-console.log(Random.value()); // a number between 0 and 1. Replacement function for Math.random.
-console.log(Random.range(10, 101)); // a random number between 10 and 101.
+console.log(Random.value()); // a random float between 0 and 1. Replacement function for Math.random.
+console.log(Random.range(10, 101)); // a random integer between 10 and 101.
 ```
 
 ## Contributing
