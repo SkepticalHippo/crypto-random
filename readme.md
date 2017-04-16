@@ -7,9 +7,11 @@ A cryptographically strong random number generator. Designed to be a drop-in rep
 * Node 6+
 * For supported browsers please refer to [https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues](this MDN article).
 
-## Usage
+## Install
 
 `npm i crypto-random --save`
+
+## Usage
 
 ```js
 const Random = require('crypto-random');
