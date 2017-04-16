@@ -5,7 +5,7 @@ A cryptographically strong random number generator. Designed to be a drop-in rep
 ## Requirements
 
 * Node 6+
-* For supported browsers please refer to [https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues](this MDN article).
+* For supported browsers please refer to [this MDN article](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues).
 
 ## Install
 
