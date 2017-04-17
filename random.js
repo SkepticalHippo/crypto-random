@@ -27,9 +27,9 @@ class Random {
      */
     static _getNodeRandomValue() {
         const crypto = require('crypto');
-        const buffer = crypto.randomBytes(4);
+        const buffer = crypto.randomBytes(8);
 
-        return this._intToFloat(buffer.readInt32BE(0));
+        return this._intToFloat(parseInt(buffer.toString('hex'), 16));
     }
     /**
      * Get a random number between 0 (inclusive) and 1 (exclusive) using window.crypto.
@@ -47,11 +47,11 @@ class Random {
     /**
      * Transform an integer to a floating point number.
      * @param   {number} integer
-     * @return  {number}         float
+     * @return  {number}
      * @private
      */
     static _intToFloat(integer) {
-        return Math.abs(integer / Math.pow(10, integer.toString().length));
+        return integer / Math.pow(2, 64);
     }
 }
 
