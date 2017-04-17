@@ -12,7 +12,7 @@ class Random {
         }
     }
     /**
-     * Generate a random number in a given range.
+     * Generate a random number between min (inclusive) and max (exclusive).
      * @param  {number} min
      * @param  {number} max
      * @return {number}
