@@ -18,7 +18,7 @@ class Random {
      * @return {number}
      */
     static range(min, max) {
-        return Math.floor(this.value() * (max - min + 1)) + min;
+        return Math.floor(this.value() * (max - min + 1) + min);
     }
     /**
      * Get a random number between 0 (inclusive) and 1 (exclusive) using Node Crypto.
