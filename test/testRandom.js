@@ -24,7 +24,7 @@ describe('Random', () => {
         });
 
         it('distributes values evenly', () => {
-            const occurances = new Array(101);
+            const occurances = new Array(100);
 
             /** Generate a large array of values. */
             const values = new Uint32Array(10000).map((value) => {
@@ -34,6 +34,15 @@ describe('Random', () => {
             /** Count how many times does each value in the array occur. */
             values.forEach((value) => {
                 occurances[value] = (occurances[value] || 0) + 1;
+            });
+
+            const range = new Uint32Array(100).map((value, index) => {
+                return index;
+            });
+
+            /** Contains each of the values at least once. */
+            range.forEach((value) => {
+                assert.isTrue(values.includes(value), 'should contain '+value);
             });
 
             occurances.forEach((value, index) => {
