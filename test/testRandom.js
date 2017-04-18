@@ -40,13 +40,15 @@ describe('Random', () => {
                 return index;
             });
 
+            const ratio = occurances.length / values.length;
+
             /** Contains each of the values at least once. */
             range.forEach((value) => {
                 assert.isTrue(values.includes(value), 'should contain '+value);
             });
 
             occurances.forEach((value, index) => {
-                assert.approximately(value / values.length, 100 / values.length, 0.01);
+                assert.approximately(value / values.length, ratio, ratio / 2);
             });
         });
     });
