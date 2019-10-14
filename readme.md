@@ -4,9 +4,11 @@
 
 A cryptographically strong random number generator. Designed to be a drop-in replacement for `Math.random`. Can be used with Node or in a browser.
 
-## Requirements
+## Supported Versions
 
-* Node 6+
+* Node 8
+* Node 10
+* Node 12
 * For supported browsers please refer to [this MDN article](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues).
 
 ## Install
