@@ -1,6 +1,6 @@
 {
   "name": "crypto-random",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A cryptographically strong random number generator. Designed to be a drop-in replacement for Math.random. Can be used with Node or in a browser.",
   "main": "random.js",
   "scripts": {
@@ -8,8 +8,8 @@
   },
   "author": "SkepticalHippo <edvinasp@live.com>",
   "license": "MIT",
-  "engines" : { 
-    "node" : ">=14.0.0"
+  "engines": {
+    "node": ">=14.0.0"
   },
   "devDependencies": {
     "jest": "^28.1.3"
