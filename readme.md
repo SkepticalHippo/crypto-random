@@ -11,7 +11,7 @@ A cryptographically strong random number generator. Designed to be a drop-in rep
 
 ## Install
 
-`npm i crypto-random --save`
+`npm i crypto-random`
 
 ## Usage
 
