@@ -2,13 +2,11 @@
 
 ![](https://travis-ci.org/SkepticalHippo/crypto-random.svg?branch=master)
 
-A cryptographically strong random number generator. Designed to be a drop-in replacement for `Math.random`. Can be used with Node or in a browser.
+A cryptographically strong random number generator. Designed to be a drop-in replacement for `Math.random`. Can be used with Node or in the browser.
 
 ## Supported Versions
 
-* Node 8
-* Node 10
-* Node 12
+* Node 8.x+ (up to Node 18.x)
 * For supported browsers please refer to [this MDN article](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues).
 
 ## Install
