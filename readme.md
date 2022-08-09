@@ -2,8 +2,9 @@
 
 ![tests](https://github.com/SkepticalHippo/crypto-random/actions/workflows/test.yml/badge.svg)
 
+A zero dependency, cryptographically strong, random number generator. 
 
-A cryptographically strong random number generator. Designed to be a drop-in replacement for `Math.random`. Can be used with Node or in the browser.
+Designed to be a drop-in replacement for `Math.random`. Can be used with Node or in the browser.
 
 ## Supported Versions
 
