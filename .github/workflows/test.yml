@@ -8,13 +8,13 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x, 14.x, 16.x, 18.x, 20.x]
+        node-version: [8.x, 10.x, 12.x, 14.x, 16.x, 18.x]
 
     steps:
       - uses: actions/checkout@v3
