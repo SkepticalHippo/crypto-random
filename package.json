@@ -8,6 +8,9 @@
   },
   "author": "SkepticalHippo <edvinasp@live.com>",
   "license": "MIT",
+  "engines" : { 
+    "node" : ">=14.0.0"
+  },
   "devDependencies": {
     "jest": "^28.1.3"
   },
