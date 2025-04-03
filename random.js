@@ -28,8 +28,8 @@ class Random {
     static _getNodeRandomValue() {
         const crypto = require('crypto');
         const buffer = crypto.randomBytes(8);
-
-        return this._intToFloat(parseInt(buffer.toString('hex'), 16));
+        const number = parseInt(buffer.toString('hex'), 16);
+        return number / Math.pow(2, 64);
     }
     /**
      * Get a random number between 0 (inclusive) and 1 (exclusive) using window.crypto.
@@ -42,16 +42,7 @@ class Random {
 
         crypto.getRandomValues(randomValues);
 
-        return this._intToFloat(randomValues[0]);
-    }
-    /**
-     * Transform an integer to a floating point number.
-     * @param   {number} integer
-     * @return  {number}
-     * @private
-     */
-    static _intToFloat(integer) {
-        return integer / Math.pow(2, 64);
+        return randomValues[0] / Math.pow(2, 32);
     }
 }
 
