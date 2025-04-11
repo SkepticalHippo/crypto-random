@@ -8,7 +8,7 @@ Designed to be a drop-in replacement for `Math.random`. Can be used with Node or
 
 ## Supported Versions
 
-* Node 14.x+ (up to Node 18.x)
+* Node 14.x+ (up to Node 23.x)
 * For supported browsers please refer to [this MDN article](https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues).
 
 ## Install
