@@ -1,4 +1,4 @@
-# Crypto-Random
+# 🔒 crypto-random
 
 ![tests](https://github.com/SkepticalHippo/crypto-random/actions/workflows/test.yml/badge.svg)
 
